@@ -1,0 +1,29 @@
+.nav_link,
+.btn_click,
+.block_h3,
+.block_p {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
+}
+
+.block_h4 {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+:root{
+    --primary-color:#B4AD9E;
+    --secondary-color:#626262;
+}
+.block_h4{
+    color: var(--primary-color);
+}
+.btn_click,
+.block_h3,
+.block_p {
+    color: var(--secondary-color);
+
+}
